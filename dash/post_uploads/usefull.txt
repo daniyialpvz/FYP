@@ -1,0 +1,24 @@
+rsync -a gallery/ shadi@132.148.82.17:/home/shadi/public_html/gallery/
+rsync -a gallery_thumbnails/ shadi@132.148.82.17:/home/shadi/public_html/gallery_thumbnails/
+rsync -a Phadv/ shadi@132.148.82.17:/home/shadi/public_html/Phadv/
+rsync -a photos/ shadi@132.148.82.17:/home/shadi/public_html/photos/
+rsync -a photos_unapproved/ shadi@132.148.82.17:/home/shadi/public_html/photos_unapproved/
+rsync -a photos_temp/ shadi@132.148.82.17:/home/shadi/public_html/photos_temp/
+
+
+4D2?OAhQ&gUD
+
+mysql -u USERNAME -pPASSWORD -h HOSTNAMEORIP DATABASENAME
+
+
+GRANT ALL PRIVILEGES
+ON database.*
+TO sh_admin@132.148.82.17
+GRANT ALL PRIVILEGES ON *.* TO 'sh_admin'@'s132-148-82-17.secureserver.net';
+
+
+
+mysqldump -h 132.148.82.17 shadi > shadi_dump.sql
+
+mysql -p -ushadi_admin shadi_main < shadi_dump.sql
+$UV69t67O0.m
