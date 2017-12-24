@@ -9,7 +9,7 @@
             </ul>
         </div>
     </div>     
-    
+    <!-- xyz !-->
     <section class="promo section section-on-bg">
         <div class="container text-center">                
             <h2 class="title">The student teacher collaboration tool<br />helps you maintain your course data in one place!</h2>
